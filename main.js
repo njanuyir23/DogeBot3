@@ -41,8 +41,8 @@ console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/94722688477'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
-	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
+    console.log(color('<>','red'), color('Thanks For Using UW Bot', 'white'))
+	DogeXeonOP.browserDescription = [ 'UW Bot', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
@@ -89,7 +89,7 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
           "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
       }
             if (anu.action == "add" && mem.includes(DogeXeonOP.user.jid)) {
-        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am Doge Bot, ready to help you here ㋛︎", "conversation")
+        DogeXeonOP.sendMessage(anu.jid, "Hello everyone, am UW bot,I am ready to help you here ㋛︎", "conversation")
       }
       buffer = await getBuffer(pp_user)
       if (anu.action == 'add' && !mem.includes(DogeXeonOP.user.jid)) {
